@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List Exercise with Localstorage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cff6d6ecd6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title-box">
+        <h1>Things to do</h1>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            Task:
+            <form action="" id="form">
+                <textarea id="task"></textarea>
+                <input type="submit" id="btn-submit" value="Add Task">
+            </form>
+        </div>
+        <div class="col-6">
+            <h2>My Tasks</h2>
+            <ul id="tasks-list"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
